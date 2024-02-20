@@ -28,16 +28,16 @@ idea ./
 We have 3 sub folders and the readme file:
 
 ```bash
-links@links:~/IdeaProjects/MCD$ ls
-  '3MCDigital - Notification'
+links@links:~/IdeaProjects/3MConsulting$ ls
+  3MC-Notification
+  3MC-User
   EurekaServer
-  MCDigital
   README.md
 ```
 
-- The first folder [3MCDigital - Notification](3MCDigital%20-%20Notification) is the Notification Service developed in Spring Boot x Spring Cloud framework
-- The second folder [EurekaServer](EurekaServer) is the Eureka Server developed in Spring Boot x Spring Cloud framework
-- The third folder [MCDigital](MCDigital) is the User Server developed in Spring Boot x Spring Cloud framework
+- The first folder [3MC-Notification](3MC-Notification) is the Notification Service developed in Spring Boot x Spring Cloud framework
+- The second folder [3MC-User](3MC-User) is the User Server developed in Spring Boot x Spring Cloud framework
+- The third folder [EurekaServer](EurekaServer) is the Eureka Server developed in Spring Boot x Spring Cloud framework
 - The last file is this [README.md](README.md) developed in Spring Boot x Spring Cloud framework
 
 ## Production
