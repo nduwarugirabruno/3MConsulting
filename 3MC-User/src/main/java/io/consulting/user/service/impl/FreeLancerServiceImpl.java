@@ -1,8 +1,8 @@
-package com.digital.mcdigital.service.impl;
+package io.consulting.user.service.impl;
 
-import com.digital.mcdigital.entity.metier.FreeLancer;
-import com.digital.mcdigital.repository.FreeLancerRepository;
-import com.digital.mcdigital.service.FreeLancerService;
+import io.consulting.user.entity.metier.FreeLancer;
+import io.consulting.user.repository.FreeLancerRepository;
+import io.consulting.user.service.FreeLancerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,13 +11,14 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-import static com.digital.mcdigital.global.Global.invalidCreateUser;
+import static io.consulting.user.global.Global.invalidCreateUser;
 import static java.lang.Long.parseLong;
 
 @Service
 public class FreeLancerServiceImpl implements FreeLancerService {
 
-    final FreeLancerRepository freeLancerRepository;
+    final
+    FreeLancerRepository freeLancerRepository;
 
     @Autowired
     public FreeLancerServiceImpl(FreeLancerRepository freeLancerRepository) {

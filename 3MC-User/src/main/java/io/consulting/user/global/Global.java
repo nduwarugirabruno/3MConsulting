@@ -1,4 +1,4 @@
-package com.digital.mcdigital.global;
+package io.consulting.user.global;
 
 public class Global {
 

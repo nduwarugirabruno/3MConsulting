@@ -2,13 +2,15 @@ package io.consulting.chat.entity.metier;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-import lombok.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 @Setter
 @Getter
-@NoArgsConstructor
-@AllArgsConstructor
 @ToString
+@NoArgsConstructor
 @Table(name = "User")
 @Entity(name = "User")
 public class User extends AUser {

@@ -1,7 +1,7 @@
-package io.app.notification.controller;
+package io.consulting.notification.controller;
 
-import io.app.notification.entity.app.Notification;
-import io.app.notification.service.NotificationService;
+import io.consulting.notification.entity.app.Notification;
+import io.consulting.notification.service.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

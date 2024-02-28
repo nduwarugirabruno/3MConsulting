@@ -1,4 +1,4 @@
-package io.app.notification.entity;
+package io.consulting.notification.entity;
 
 public interface Visitor {
 }

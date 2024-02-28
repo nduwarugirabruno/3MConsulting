@@ -1,4 +1,4 @@
-package io.app.notification.entity.metier;
+package io.consulting.notification.entity.metier;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;

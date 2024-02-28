@@ -1,4 +1,4 @@
-package com.digital.mcdigital.entity;
+package io.consulting.user.entity;
 
 public interface Visitor {
 }

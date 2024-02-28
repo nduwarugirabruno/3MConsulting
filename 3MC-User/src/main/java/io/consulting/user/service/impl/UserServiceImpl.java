@@ -1,9 +1,8 @@
-package com.digital.mcdigital.service.impl;
+package io.consulting.user.service.impl;
 
-import com.digital.mcdigital.entity.metier.User;
-import com.digital.mcdigital.global.Global;
-import com.digital.mcdigital.repository.UserRepository;
-import com.digital.mcdigital.service.UserService;
+import io.consulting.user.entity.metier.User;
+import io.consulting.user.repository.UserRepository;
+import io.consulting.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-import static com.digital.mcdigital.global.Global.invalidCreateUser;
+import static io.consulting.user.global.Global.invalidCreateUser;
 import static java.lang.Long.parseLong;
 
 @Service

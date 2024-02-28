@@ -1,4 +1,4 @@
-package com.digital.mcdigital.entity.metier;
+package io.consulting.user.entity.metier;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;

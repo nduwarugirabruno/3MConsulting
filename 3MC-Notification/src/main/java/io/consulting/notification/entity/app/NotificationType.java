@@ -1,4 +1,4 @@
-package io.app.notification.entity.app;
+package io.consulting.notification.entity.app;
 
 import jakarta.persistence.Table;
 

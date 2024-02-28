@@ -1,6 +1,6 @@
-package io.app.notification.entity.app;
+package io.consulting.notification.entity.app;
 
-import io.app.notification.entity.metier.User;
+import io.consulting.notification.entity.metier.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

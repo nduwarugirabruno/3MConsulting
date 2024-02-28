@@ -6,11 +6,10 @@ import lombok.*;
 
 @Setter
 @Getter
-@NoArgsConstructor
-@AllArgsConstructor
 @ToString
-@Table(name = "FreeLancer")
+@NoArgsConstructor
 @Entity(name = "FreeLancer")
+@Table(name = "FreeLancer")
 public class FreeLancer extends AUser {
 
     public FreeLancer(String name, String surname, Long number, String mail, String password, String skills) {

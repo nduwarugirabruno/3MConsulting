@@ -1,4 +1,4 @@
-package com.digital.mcdigital.entity.metier;
+package io.consulting.user.entity.metier;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -9,8 +9,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@Table(name = "User")
-@Entity(name = "User")
+@Table(name = "AUser")
+@Entity(name = "AUser")
 public class User extends AUser {
 
     public User(String name, String surname, Long number, String mail, String password, String skills) {

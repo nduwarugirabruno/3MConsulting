@@ -1,6 +1,6 @@
-package com.digital.mcdigital.repository;
+package io.consulting.user.repository;
 
-import com.digital.mcdigital.entity.metier.AUser;
+import io.consulting.user.entity.metier.AUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

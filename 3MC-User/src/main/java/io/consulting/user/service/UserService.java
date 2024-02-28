@@ -1,6 +1,6 @@
-package com.digital.mcdigital.service;
+package io.consulting.user.service;
 
-import com.digital.mcdigital.entity.metier.User;
+import io.consulting.user.entity.metier.User;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

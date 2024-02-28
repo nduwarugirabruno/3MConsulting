@@ -1,7 +1,7 @@
-package io.app.notification.repository;
+package io.consulting.notification.repository;
 
-import io.app.notification.entity.app.Notification;
-import io.app.notification.entity.app.NotificationType;
+import io.consulting.notification.entity.app.Notification;
+import io.consulting.notification.entity.app.NotificationType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface NotificationRepository extends JpaRepository<Notification, Long>{
+public interface NotificationRepository extends JpaRepository<Notification, Long> {
 	@Query("select n from Notification n where n.content like %?1%")
 	List<Notification> findByContent(String content);
 

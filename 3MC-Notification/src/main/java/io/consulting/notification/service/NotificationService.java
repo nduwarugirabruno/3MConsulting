@@ -1,6 +1,6 @@
-package io.app.notification.service;
+package io.consulting.notification.service;
 
-import io.app.notification.entity.app.Notification;
+import io.consulting.notification.entity.app.Notification;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

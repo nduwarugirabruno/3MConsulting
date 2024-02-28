@@ -1,7 +1,7 @@
-package com.digital.mcdigital.controller;
+package io.consulting.user.controller;
 
-import com.digital.mcdigital.entity.metier.AUser;
-import com.digital.mcdigital.service.AUserService;
+import io.consulting.user.entity.metier.AUser;
+import io.consulting.user.service.AUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,7 +10,7 @@ import java.util.List;
 
 @CrossOrigin(origins = "*")
 @RestController
-@RequestMapping(path = "/api/v1/user")
+@RequestMapping(path = "/api/v1/auser")
 public class AUserController {
 
 	final

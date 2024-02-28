@@ -1,8 +1,8 @@
-package com.digital.mcdigital.service.impl;
+package io.consulting.user.service.impl;
 
-import com.digital.mcdigital.entity.metier.AUser;
-import com.digital.mcdigital.repository.AUserRepository;
-import com.digital.mcdigital.service.AUserService;
+import io.consulting.user.entity.metier.AUser;
+import io.consulting.user.repository.AUserRepository;
+import io.consulting.user.service.AUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

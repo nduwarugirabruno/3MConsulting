@@ -1,7 +1,6 @@
-package com.digital.mcdigital.repository;
+package io.consulting.user.repository;
 
-import com.digital.mcdigital.entity.metier.FreeLancer;
-import com.digital.mcdigital.entity.metier.User;
+import io.consulting.user.entity.metier.FreeLancer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -9,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface FreeLancerRepository extends JpaRepository<FreeLancer, Long>{
+public interface FreeLancerRepository extends JpaRepository<FreeLancer, Long> {
 	@Query("select fl from FreeLancer fl where fl.name like %?1%")
 	List<FreeLancer> findByName(String name);
 
